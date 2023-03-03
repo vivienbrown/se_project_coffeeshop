@@ -28,6 +28,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
+  z-index: 1;
 }
 
 .header .span-accent {
@@ -43,11 +44,10 @@
   max-width: 729px;
   line-height: 76px;
   font-weight: 500;
-  margin: 150px 0 0;
+  margin: 150px 0 28px;
   font-family: "Inter";
   font-weight: 500;
   font-size: 60px;
-  padding-right: 46;
 }
 
 .header__description {
@@ -58,11 +58,12 @@
 }
 
 .header__image {
+  width: 646px;
   height: 568px;
-  width: 636px;
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__link {
@@ -73,14 +74,10 @@
 .header__link:hover {
   color: #1f69c9;
 }
-.header__address {
-
-}
-
 
 .logo {
-  height: 125px;
-  width: 142px;
+  width: 125px;
+  height: 142px;
   align-items: center;
   top: 30px;
   left: 30px;
@@ -89,7 +86,7 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -138,7 +135,7 @@
 }
 
 .header__address {
-  position:relative;
+  position: relative;
   right: 80px;
   bottom: 40px;
   margin: 0;
