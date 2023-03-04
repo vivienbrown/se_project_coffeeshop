@@ -13,7 +13,7 @@
     max-width: none;
   }
 }
-/*
+
 .header {
   height: 100vh;
   min-height: 720px;
@@ -144,27 +144,28 @@
   margin: 0;
   color: #838383;
 }
-*/
 
 .recipes {
   background-color: #0a2750;
   background-image: url(/images/background_recipes.svg);
   background-size: cover;
+  padding-left: 80px;
 }
 
 .title {
   max-width: 580px;
-  margin-bottom: 24px;
   font-family: "Inter";
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   color: white;
+  padding-top: 100px;
+  margin: 0;
 }
 
 .subtitle {
   max-width: 438px;
-  margin-bottom: 80px;
+  margin: 24px 0 80px;
   font-family: "Noto Serif";
   font-size: 20px;
   line-height: 30px;
@@ -184,9 +185,12 @@
 }
 
 .recipes__caption {
+  display: flex;
+  justify-content: space-between;
   font-family: "Inter";
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   color: white;
+  margin-bottom: 215px;
 }

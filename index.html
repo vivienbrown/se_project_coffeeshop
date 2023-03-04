@@ -24,7 +24,6 @@
   </head>
   <body>
     <div class="page">
-      <!--
       <header class="header">
         <img
           src="/images/logo_coffee_shop.svg"
@@ -71,7 +70,7 @@
           </div>
         </div>
       </header>
-      -->
+      
       <main class="content">
         <section class="recipes">
           <h2 class="title">Recipes</h2>
@@ -80,8 +79,9 @@
             convenience:
           </p>
           <div class="recipes__videos">
-            <div class="recipes__iframe">
+            <div>
               <iframe
+                class="recipes__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
@@ -90,11 +90,15 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__caption">Aeropress recipe</div>
+              <div class="recipes__caption">
+                <div>Aeropress recipe</div>
+                <div>~5 min</div>
+              </div>
             </div>
 
-            <div class="recipes__iframe">
+            <div>
               <iframe
+                class="recipes__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/st571DYYTR8"
@@ -103,7 +107,10 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__caption">French press recipe</div>
+              <div class="recipes__caption">
+                <div>French press recipe</div>
+                <div>~15 min</div>
+              </div>
             </div>
           </div>
         </section>
