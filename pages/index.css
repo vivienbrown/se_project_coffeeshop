@@ -200,3 +200,52 @@
   color: #ffffff;
   margin-bottom: 215px;
 }
+
+.reservation {
+  background-image: url(/images/background_reservation.svg);
+  repeat: no-repeat;
+  background-size: cover;
+}
+
+.reservation__title {
+
+}
+
+.reservation__form {
+
+}
+
+.form {
+
+}
+
+.form__fieldset {
+
+}
+
+.form__label {
+
+}
+
+.form__input {
+border-radius: 4px;
+
+}
+
+.form__button {
+border-radius: 4px;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  background-color: #2f80ed;
+  background-image: url(/images/check.svg);
+}
+
+.form__checkbox:checked {
+  
+}
+
+.form__label {
+
+}
