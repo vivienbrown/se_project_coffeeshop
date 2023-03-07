@@ -214,17 +214,29 @@
 }
 
 .reservation__form {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form {
+
   padding-bottom: 120px;
+  margin: 0 auto;
+  width: 385px;
+  max-height: 536px;
+  box-sizing: border-box;
 }
 
 .form__fieldset {
+  background-color: red;
 }
 
 .form__label {
   margin-bottom: 8px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .form__input {
@@ -234,6 +246,7 @@
 
 .form__button {
   border-radius: 4px;
+  height: 60px;
 }
 
 .form__checkbox {
