@@ -116,22 +116,30 @@
           <div class="reservation__form">
             <form class="form">
               <fieldset class="form__fieldset">
-                <label id="name" class="form__label">Name *</label>
-                <input type="text" class="form__input" id="name" required />
-                <label id="number" class="form__label">
+                <label for id="name" class="form__label">Name *</label>
+                <input type="text" class="form__input" id="name" placeholder="Name Surname" required />
+                <label for id="number" class="form__label">
                   Number of guests *</label
                 >
-                <input type="text" class="form__input" id="number" required />
-                <label id="datetime" class="form__label"> Date & time *</label>
+                <input type="number" class="form__input" id="number" placeholder="1-8" required />
+                <label for id="datetime" class="form__label"> Date & time *</label>
                 <input type="datetime-local" class="form__input" required />
-                <label id="email" class="form__label">Your email *</label>
-                <input type="email" class="form__input" id="email" required />
+                <label for id="email" class="form__label">Your email *</label>
+                <input type="email" class="form__input" id="email" placeholder="email@email.com"required />
               </fieldset>
               <fieldset>
                 <button type="submit" class="form__button">
-                  I agree with the terms of use
+                  Book a table
                 </button>
-                <checkbox class="form__checkbox">Book a table</checkbox>
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <input
+                  type="checkbox"
+                  class="form__input form__input-checkbox"
+                  name="remember-me"
+                  id="remember-me"
+                />
+                <label for="remember-me" class="form__label"> I agree with the terms of use</label>
               </fieldset>
             </form>
           </div>
