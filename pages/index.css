@@ -205,32 +205,37 @@
   background-image: url(/images/background_reservation.svg);
   repeat: no-repeat;
   background-size: cover;
+  background-color: #d9e7ff;
 }
 
 .reservation__title {
-  margin: 100px 0 80px;
+  margin: 0;
+  padding: 100px 0 80px;
   display: flex;
   justify-content: center;
 }
 
 .reservation__form {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ margin: auto;
+
+
 }
 
 .form {
-
   padding-bottom: 120px;
   margin: 0 auto;
   width: 385px;
   max-height: 536px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form__fieldset {
-  background-color: red;
+background-color: red;
+max-width: 385px;
 }
 
 .form__label {
@@ -242,6 +247,12 @@
 .form__input {
   border-radius: 4px;
   max-width: 385px;
+  width:100%;
+  height: 20px;
+  padding: 19px 20px;
+  box-sizing: border-box;
+  border: 1px;
+  margin-bottom: 32px;
 }
 
 .form__button {
