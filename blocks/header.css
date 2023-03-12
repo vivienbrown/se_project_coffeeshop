@@ -1,0 +1,135 @@
+.header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  background: url(/images/background_header.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  z-index: 1;
+}
+
+.header .span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-size: 53.5px;
+  line-height: 72px;
+  color: #2f80ed;
+  display: flex;
+}
+
+.header__title {
+  max-width: 729px;
+  line-height: 76px;
+  font-weight: 500;
+  margin: 202px 0px 28px 80px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 53.5px;
+}
+
+.header__description {
+  max-width: 683px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 80px;
+  font-family: "Noto Serif";
+}
+
+.header__image {
+  display: flex;
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  z-index: -1;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #1f69c9;
+}
+
+.logo {
+  width: 125px;
+  height: 142px;
+  align-items: center;
+  top: 30px;
+  left: 30px;
+  position: absolute;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 80px;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link:hover {
+  color: #1f69c9;
+}
+
+.header__footer {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  padding: 40px 80px 0;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+  color: #838383;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.hours {
+  position: relative;
+  left: 80px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__address {
+  position: relative;
+  right: 80px;
+  margin: 0;
+  color: #838383;
+}
+
+.p {
+  margin: 0;
+}
