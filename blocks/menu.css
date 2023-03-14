@@ -27,3 +27,16 @@
   line-height: 30px;
   text-align: center;
 }
+
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.menu__cards:last-child {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
