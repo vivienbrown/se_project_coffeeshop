@@ -3,88 +3,55 @@
 @import url(/blocks/header.css);
 @import url(/blocks/recipes.css);
 @import url(/blocks/reservation.css);
+@import url(/blocks/menu.css);
 
-.menu {
-  background-color: #fff;
-  background-image: url(/images/background_menu.svg);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
+.about {
+  background-color: #0a2850;
+  position: relative;
+  overflow: hidden;
 }
 
-.menu__title {
-  max-width: 780px;
-  padding: 100px 0 24px;
-  margin: 0;
+.about__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 80px;
+  max-width: 251px;
   font-family: "Inter";
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  color: #fff;
+  z-index: 1;
 }
 
-.menu__subtitle {
-  max-width: 780px;
-  padding: 0 0 100px;
+.about__content {
+  color: #fff;
+  padding: 119px 80px 173px 0;
+  margin: 0;
+}
+
+.about__paragraph {
+  display: flex;
+  max-width: 660px;
   margin: 0;
   font-family: "Noto Serif";
   font-size: 20px;
   line-height: 30px;
-  text-align: center;
+  padding-bottom: 20px;
 }
 
-.menu__cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 100px;
-}
-
-.menu__cards:last-child {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-}
-
-.card {
-  width: 540px;
-  padding-left: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.card__title {
-  font-family: "Inter";
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 0;
-  padding-bottom: 32px;
-}
-
-.card__unordered-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.card__list-item {
-  font-family: "Noto Serif";
-  font-size: 16px;
-  line-height: 20px;
-  display: flex;
-  flex-direction: row;
-}
-
-.card__list-divider {
-  border-bottom: #000;
-  border: 1px solid;
-  flex-grow: 1;
-}
-
-.about {
-}
-
-.footer {
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 0;
 }
