@@ -83,7 +83,7 @@
   color: #838383;
 }
 
-.hours {
+.header__hours {
   position: relative;
   left: 80px;
   margin: 0;
@@ -91,6 +91,6 @@
   flex-direction: column;
 }
 
-.p {
+.header__p {
   margin: 0;
 }
