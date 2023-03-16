@@ -45,10 +45,12 @@
 
 .footer__social-link {
   color: #fff;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {
-  transition: #c1c1c1 0.3s ease;
+  color: #c1c1c1
+  transition: 0.3s ease;
 }
 
 .footer__copyright {
@@ -56,7 +58,7 @@
   margin: 0;
   padding-left: 80px;
   padding-bottom: 60px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }

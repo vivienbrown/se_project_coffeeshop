@@ -1,5 +1,5 @@
 .reservation {
-  background-image: url(/images/background_reservation.svg);
+  background-image: url(./images/background_reservation.svg);
   repeat: no-repeat;
   background-size: cover;
   background-color: #d9e7ff;
@@ -10,7 +10,7 @@
   padding: 100px 0 80px;
   display: flex;
   justify-content: center;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
