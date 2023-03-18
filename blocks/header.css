@@ -12,7 +12,7 @@
   z-index: 1;
 }
 
-.header .span-accent {
+.header .span__accent {
   font-family: "Noto Serif", Arial, sans-serif;
   font-style: italic;
   font-size: 60px;
@@ -61,7 +61,7 @@
 
 .header__footer {
   display: flex;
-margin-top: auto;
+  margin-top: auto;
   left: 0;
   bottom: 40px;
   width: 100%;
