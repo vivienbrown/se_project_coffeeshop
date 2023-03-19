@@ -1,4 +1,6 @@
 .header {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
@@ -62,10 +64,8 @@
 .header__footer {
   display: flex;
   margin-top: auto;
-  left: 0;
-  bottom: 40px;
   width: 100%;
-  padding: 40px 80px 0;
+  padding: 40px 80px 40px;
   justify-content: space-between;
   align-items: flex-end;
   box-sizing: border-box;
