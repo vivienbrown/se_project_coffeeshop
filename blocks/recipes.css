@@ -26,6 +26,7 @@
 }
 
 .recipes__videos {
+  margin: 0;
   display: flex;
   justify-content: center;
   column-gap: 40px;
@@ -48,4 +49,8 @@
   line-height: 30px;
   color: #ffffff;
   margin-bottom: 215px;
+}
+
+.recipes__caption_paragraph {
+  margin: 0;
 }

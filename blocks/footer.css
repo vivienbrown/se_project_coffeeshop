@@ -3,7 +3,7 @@
 }
 
 .footer__content {
-  padding: 60px 100px 60px 80px;
+  padding: 60px 100px 108px 80px;
   display: flex;
   justify-content: space-between;
 }
@@ -32,7 +32,7 @@
 
 .footer__column {
   align-items: end;
-  font-family: "Inter", Arial, sans-serif;;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -65,7 +65,7 @@
   color: white;
   margin: 0;
   padding-left: 80px;
-  padding-bottom: 108px;
+  padding-bottom: 60px;
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;

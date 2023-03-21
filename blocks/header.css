@@ -52,15 +52,6 @@
   z-index: -1;
 }
 
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-.header__link:hover {
-  color: #1f69c9;
-}
-
 .header__footer {
   display: flex;
   margin-top: auto;
@@ -76,20 +67,12 @@
   line-height: 20px;
 }
 
-.header__address {
-  /* This class isn't used in the project, please remove the selector */
-  position: relative;
-  right: 80px;
-  margin: 0;
-  color: #838383;
-}
-
 .header__hours {
   margin: 0;
   display: flex;
   flex-direction: column;
 }
-/* Class names of paragraph don't match the one given in the brief */
-.header__p {
+
+.header__paragraph {
   margin: 0;
 }
