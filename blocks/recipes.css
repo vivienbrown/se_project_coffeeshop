@@ -2,7 +2,6 @@
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
-
 }
 
 .recipes__title {
@@ -53,6 +52,6 @@
   margin-bottom: 215px;
 }
 
-.recipes__caption_paragraph {
+.recipes__caption-paragraph {
   margin: 0;
 }
