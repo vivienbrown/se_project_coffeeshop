@@ -60,11 +60,15 @@
         />
         <div class="header__footer">
           <div class="header__hours">
-            <p class="header__p">Hours:</p>
-            <p class="header__p">Monday – Friday (10:00 – 19:00)</p>
-            <p class="header__p">Saturday – Sunday (11:00 – 18:00)</p>
+            <!-- Class name header__hours don't match the one given in the brief -->
+
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <p class="header__p">200 Success Avenue, The Town of Practicum</p>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Practicum
+          </p>
         </div>
       </header>
 
@@ -86,6 +90,8 @@
               ></iframe>
               <div class="recipes__caption">
                 <p>Aeropress recipe</p>
+
+                <!-- reset default margins, assign a class name -->
                 <p>~5 min</p>
               </div>
             </div>
@@ -294,24 +300,25 @@
           />
           <div class="footer__column">
             <h4 class="footer__social-heading">Social media</h4>
-            <ul>
+            <ul class="footer__unordered-list">
+              <!-- reset default margins and padding. -->
               <li class="footer__column-item">
-                <img
-                  class="footer__social-icon"
-                  src="./images/facebook_white.svg"
-                  alt="facebook icon in white"
-                />
-
-                <a href class="footer__social-link">Facebook</a>
+                <a href class="footer__social-link"
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="facebook icon in white"
+                  />Facebook</a
+                >
               </li>
               <li class="footer__column-item">
-                <img
-                  class="footer__social-icon"
-                  src="./images/instagram_white.svg"
-                  alt="instagram logo in white"
-                />
-
-                <a href class="footer__social-link">Instagram</a>
+                <a href class="footer__social-link"
+                  ><img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="instagram logo in white"
+                  />Instagram</a
+                >
               </li>
             </ul>
           </div>

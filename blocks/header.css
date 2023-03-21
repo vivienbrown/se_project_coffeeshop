@@ -15,7 +15,7 @@
 }
 
 .header__span-accent {
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -39,7 +39,7 @@
   font-size: 20px;
   line-height: 30px;
   margin-left: 80px;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .header__image {
@@ -77,6 +77,7 @@
 }
 
 .header__address {
+  /* This class isn't used in the project, please remove the selector */
   position: relative;
   right: 80px;
   margin: 0;
@@ -84,13 +85,11 @@
 }
 
 .header__hours {
-  position: relative;
-  left: 80px;
   margin: 0;
   display: flex;
   flex-direction: column;
 }
-
+/* Class names of paragraph don't match the one given in the brief */
 .header__p {
   margin: 0;
 }

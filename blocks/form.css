@@ -69,6 +69,7 @@
 
 .form__checkbox-label {
   display: flex;
+  justify-content: center;
 }
 
 .form__checkbox {
