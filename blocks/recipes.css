@@ -2,7 +2,7 @@
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
-  padding-left: 80px;
+
 }
 
 .recipes__title {
@@ -13,12 +13,14 @@
   line-height: 52px;
   color: #ffffff;
   padding-top: 100px;
+  padding-left: 80px;
   margin: 0;
 }
 
 .recipes__subtitle {
   max-width: 438px;
   margin: 24px 0 80px;
+  padding-left: 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
